@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Unit Converter</title>
+</head>
+<body>
+    <div class="converter-body">
+        <h1 class="converter-title">Unit Converter</h1>
+        <input type="number" placeholder="Input" id="input" autofocus>
+        <span>=</span>
+        <input type="text" placeholder="Result" id="result" value="0" disabled>
+        <select id="inputType">
+            <option></option>
+            <option value="meter">Meter</option>
+            <option value="kilometer">Kilometer</option>
+            <option value="centimeter">Centimeter</option>
+        </select>
+        <select id="resultType">
+            <option></option>
+            <option value="meter">Meter</option>
+            <option value="kilometer">Kilometer</option>
+            <option value="centimeter">Centimeter</option>
+        </select>
+        <br>
+        <select id="weightInput">
+            <option></option>
+            <option value="pounds">Pounds</option>
+            <option value="grams">Grams</option>
+            <option value="kg">Kilograms</option>
+        </select>
+        <select id="weightOutput">
+            <option></option>
+            <option value="pounds">Pounds</option>
+            <option value="grams">Grams</option>
+            <option value="kg">Kilograms</option>
+        </select>
+        <br>
+        <select id="mathInput">
+            <option></option>
+            <option value="percent">Percentage</option>
+            <option value="decimal">Decimal</option>
+        </select>
+        <select id="mathOutput">
+            <option></option>
+            <option value="percent">Percentage</option>
+            <option value="decimal">Decimal</option>
+        </select>
+    </div>
+
+
+<script src="script.js"></script>
+</body>
+</html>
